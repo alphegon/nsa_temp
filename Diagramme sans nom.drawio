@@ -1,1 +1,307 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T11:28:42.753Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" version="20.8.21" etag="GYsKw2iRzwtd8A2-S50J" type="github"><diagram name="Page-1" id="9_txhWtQUKwQbb_lj9Uj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-21T11:55:08.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.50" etag="0vnCikSqHXr3xl458zFe" version="20.8.21" type="github">
+  <diagram name="Page-1" id="9_txhWtQUKwQbb_lj9Uj">
+    <mxGraphModel dx="1816" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-1" target="e-DFtxS8geQrDF_8xFKR-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-1" value="Connexion ou enregistrement" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-2" value="Découpage utilisation appli" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="240" y="10" width="364" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-3" value="Appel API /login" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="e-DFtxS8geQrDF_8xFKR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="120" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-7" value="Appel API /register" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="604" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-7" target="e-DFtxS8geQrDF_8xFKR-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="120" />
+              <mxPoint x="750" y="70" />
+              <mxPoint x="664" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-10" value="Si pas ok" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="664" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-11" value="(put) Si ok" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="680" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-12" value="&lt;font color=&quot;#330000&quot;&gt;Récupération de toutes les infos de l&#39;utilisateur (get) /user + de tous ses trajets enregistrés (get) /trajets&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fontColor=#FF3019;" vertex="1" parent="1">
+          <mxGeometry x="362" y="200" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-13" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3019;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-7" target="e-DFtxS8geQrDF_8xFKR-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="250" as="sourcePoint" />
+            <mxPoint x="420" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="664" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-14" value="Si ok" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="100" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-15" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3019;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="150" as="sourcePoint" />
+            <mxPoint x="360" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="e-DFtxS8geQrDF_8xFKR-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="110" as="sourcePoint" />
+            <mxPoint x="60" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="110" />
+              <mxPoint x="70" y="90" />
+              <mxPoint x="70" y="60" />
+              <mxPoint x="180" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-17" value="Si pas ok" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="60" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-37" value="&lt;span style=&quot;color: rgb(51, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Ici l&#39;utilisateur rempli sont&lt;br&gt;point de départ et d&#39;arrivée&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-18" target="e-DFtxS8geQrDF_8xFKR-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-18" value="&lt;font color=&quot;#330000&quot;&gt;Demande nouvel itinéaire&lt;br&gt;(post) /trajets&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF3019;" vertex="1" parent="1">
+          <mxGeometry x="362" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-19" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-12" target="e-DFtxS8geQrDF_8xFKR-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="410" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-21" value="Affichage des noms et deux points rentrées par l&#39;utilisateur" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="362" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-24" value="Géocodage des points de départ et arrivé utilisateur" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="659.2" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-25" value="Légende" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="160" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#a20025;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="60" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#008a00;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="110" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="260" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="310" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-33" value="Erreur retour api" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="65" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-34" value="Pas d&#39;erreur retour api" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="115" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-35" value="Action utilisateur + routes api" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="165" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-36" value="Micro services externes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="212.5" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="779.2" y="390" as="sourcePoint" />
+            <mxPoint x="719.2" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="805.2" y="390" />
+              <mxPoint x="805.2" y="340" />
+              <mxPoint x="719.2" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-39" value="Si pas ok" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="719.2" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-40" value="Si ok" style="text;html=1;strokeColor=#005700;fillColor=#008a00;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="737.2" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-41" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#FF3019;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.008;entryY=0.356;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="e-DFtxS8geQrDF_8xFKR-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="721.2" y="420" as="sourcePoint" />
+            <mxPoint x="559.9999999999998" y="500.15999999999985" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="719.2" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-43" value="Retour sous forme de&amp;nbsp;&lt;br&gt;cordonnées GPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="e-DFtxS8geQrDF_8xFKR-41">
+          <mxGeometry x="0.173" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-44" target="e-DFtxS8geQrDF_8xFKR-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-59" value="Retour sous forme de coordonnées&lt;br&gt;à convertir au besoin pour utiliser l&#39;api d&#39;affichage&amp;nbsp;&lt;br&gt;sur la carte" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="e-DFtxS8geQrDF_8xFKR-56">
+          <mxGeometry x="-0.62" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-44" value="Maps box pour l&#39;itinéraire" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="600" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-45" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-21" target="e-DFtxS8geQrDF_8xFKR-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="670" as="sourcePoint" />
+            <mxPoint x="570" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="618" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-46" value="L&#39;utilisateur rentre les infos du trajet&lt;br&gt;date, budget, types de besoins&lt;br&gt;(sport, transport, etc.)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="e-DFtxS8geQrDF_8xFKR-45">
+          <mxGeometry x="-0.1289" y="3" relative="1" as="geometry">
+            <mxPoint x="-74" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.566;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-44" target="e-DFtxS8geQrDF_8xFKR-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="336.00000000000006" y="630" as="sourcePoint" />
+            <mxPoint x="276.00000000000006" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="640" />
+              <mxPoint x="360" y="670" />
+              <mxPoint x="330" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-48" value="Si pas ok" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="370.00000000000006" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-49" target="e-DFtxS8geQrDF_8xFKR-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-64" value="Retour sous forme de json&lt;br&gt;(titre, description, catégorie, etc.)&lt;br&gt;IMPORTANT&lt;br&gt;Besoin d&#39;avoir la géolocalisation quitte&lt;br&gt;à faire un call api sur un autre service pour géocoder&lt;br&gt;l&#39;adresse" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="e-DFtxS8geQrDF_8xFKR-60">
+          <mxGeometry x="-0.1436" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-49" value="Api pour récupérer les différents points d&#39;intérêts en fonction de demandes de l&#39;utilisateur" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="465" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-50" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.429;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-44" target="e-DFtxS8geQrDF_8xFKR-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="510" as="sourcePoint" />
+            <mxPoint x="260" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-66" value="Envoi des coordonnés&amp;nbsp;&lt;br&gt;du trajet pour trouver&lt;br&gt;des points d&#39;intérêts&lt;br&gt;autour de la zone de&lt;br&gt;l&#39;itinéraire" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#330000;" vertex="1" connectable="0" parent="e-DFtxS8geQrDF_8xFKR-50">
+          <mxGeometry x="0.0968" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.993;exitY=0.283;exitDx=0;exitDy=0;entryX=0.576;entryY=0.015;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-49" target="e-DFtxS8geQrDF_8xFKR-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="94" y="490" as="sourcePoint" />
+            <mxPoint x="80.00000000000006" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="490" />
+              <mxPoint x="60" y="430" />
+              <mxPoint x="-50" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-52" value="Si pas ok" style="text;html=1;strokeColor=#6F0000;fillColor=#a20025;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70.00000000000006" y="435" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-53" value="Affichage de l&#39;itinéraire sur la carte" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-58" value="Affichage de la liste&amp;nbsp;&lt;br&gt;des points d&#39;intérêts" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-61" value="" style="endArrow=none;html=1;rounded=0;fontColor=#330000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-58" target="e-DFtxS8geQrDF_8xFKR-53">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="570" as="sourcePoint" />
+            <mxPoint x="150" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-62" target="e-DFtxS8geQrDF_8xFKR-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-62" value="L&#39;utilisateur coche les points d&#39;intérêts qui l&#39;intéresse" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-63" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="780" as="sourcePoint" />
+            <mxPoint x="40" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-65" target="e-DFtxS8geQrDF_8xFKR-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-65" value="Maps box pour l&#39;itinéraire avec les nouveaux points" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="190" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-68" value="Ici on doit attendre le retour de la liste des points d&#39;intérêts avant d&#39;afficher l&#39;itinéraire" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-69" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#330000;" edge="1" parent="1" target="e-DFtxS8geQrDF_8xFKR-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="780" as="sourcePoint" />
+            <mxPoint x="220" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-72" target="e-DFtxS8geQrDF_8xFKR-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-72" target="e-DFtxS8geQrDF_8xFKR-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#330000;" edge="1" parent="1" source="e-DFtxS8geQrDF_8xFKR-72" target="e-DFtxS8geQrDF_8xFKR-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-72" value="Affichage de l&#39;itinéraire sur la carte" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-74" value="Export du trajet au format GPX (pour les GPS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-76" value="Demande d&#39;impression du trajet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="599.2" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-DFtxS8geQrDF_8xFKR-79" value="Enregistrement du trajet dans la BDD" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#330000;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
